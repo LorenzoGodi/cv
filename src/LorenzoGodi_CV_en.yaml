@@ -1,0 +1,116 @@
+cv:
+    name: Lorenzo Godi
+    location: Padova, Italy
+    email: lorenzo.godi.work@protonmail.com
+    #website: https://lorenzogodi.com/
+    social_networks:
+    - network: LinkedIn
+      username: lorenzogodi
+    - network: GitHub
+      username: LorenzoGodi
+    sections:
+        about me:
+        - I am a computer scientist and an astronomy student. My pursuit in life has always been knowledge. I was just six years old when I was captivated in front of the screen by a documentary about black holes. I appreciate and need to
+            constantly deepen my understanding of the world. Computer sciences have always been my strong suit since high school.
+            I enjoy designing software and programming. You will find in me an highly motivated person, willing to learn and face
+            challenges and capable of working independently. I also enjoy collaborating in a team environment and exchanging
+            ideas. I would love to dedicate myself to a stimulating project, growing my abilities and passion.
+        education:
+          - institution: University of Padova
+            area: Astronomy (attending)
+            degree: Bachelor's Degree
+            start_date: 2021
+            end_date: present
+          - institution: University of Trento
+            area: Computer Sciences
+            degree: Bachelor's Degree
+            start_date: 2018
+            end_date: 2021
+            highlights:
+              - '**Final grade:** 110 cum laude / 110'
+              - '**Internship and final exam:** “Data Analysis in the climate domain on HPC clusters using the parallel data
+                analytics framework Dask”'
+          - institution: Technical School ITT “Eugenio Barsanti”
+            area: 'Informatics and Telecommunications - Specialisation: Informatics'
+            degree: Diploma
+            start_date: 2013
+            end_date: 2018
+            highlights:
+              - '**Final grade:** 100 / 100'
+        experience:
+          - company: Accenture Italia
+            position: Apprenticeship - IT and Telematics Systems Officer
+            location: Venezia, Italy
+            start_date: 2023-11
+            end_date: present
+            highlights:
+              - Windows System Administrator at Public Administration Offices.
+              - PowerShell and Python scripting.
+              - Deployment of applications on Windows Server.
+              - Managed Windows Server services, including Active Directory, DFS, WSUS, and DNS.
+              - Configuring monitoring services such as Dynatrace, Zabbix
+          - company: University of Trento
+            position: Online Technical Support Operator
+            location: Trento, Italy
+            start_date: 2020-05
+            end_date: 2021-05
+            highlights:
+              - Provided support to academic departments for conducting virtual graduation sessions.
+              - Managed and organised Zoom meetings, offering technical assistance.
+        volunteering:
+          - name: IT Tutor for adults
+            location: Technical School ITT “Eugenio Barsanti”
+            highlights:
+              - Conducted basic IT courses for adults on using computers, smartphones, and the internet.
+              - Developed instructional guides and prepared lesson materials.
+        technologies:
+          - label: Languages
+            details: Python (Numpy, Xarray, Matplotlib), SQL, PowerShell, C#, JAVA, SML, F#
+          - label: Tools
+            details: Jupyter Lab, Git, LateX
+          - label: Familiar with
+            details: .NET, Docker, C++, JavaScript, Typescript, Bash
+design:
+    theme: sb2nov
+    font: Charter
+    font_size: 10pt
+    page_size: a4paper
+    color: '#004f90'
+    disable_external_link_icons: false
+    disable_page_numbering: true
+    page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+    disable_last_updated_date: false
+    last_updated_date_style: 'Updated: TODAY'
+    header_font_size: 30 pt
+    text_alignment: justified
+    seperator_between_connections: ''
+    use_icons_for_connections: true
+    margins:
+        page:
+            top: 1 cm
+            bottom: 1 cm
+            left: 1 cm
+            right: 1 cm
+        section_title:
+            top: 0.4 cm
+            bottom: 0.4 cm
+        entry_area:
+            left_and_right: 0.2 cm
+            vertical_between: 0.4 cm
+            date_and_location_width: 6.5 cm
+        highlights_area:
+            top: 0.10 cm
+            left: 0.4 cm
+            vertical_between_bullet_points: 0.10 cm
+        header:
+            vertical_between_name_and_connections: 0.3 cm
+            bottom: 0.3 cm
+            horizontal_between_connections: 0.5 cm
+rendercv_settings:
+  render_command:
+    output_folder_name: rendercv_output_en
+    pdf_path: LorenzoGodi_CV_en.pdf 
+    latex_path: LorenzoGodi_CV_en.tex
+    dont_generate_html: true 
+    dont_generate_markdown: true 
+    dont_generate_png: true
