@@ -140,7 +140,6 @@ locale_catalog:
   year: anno
   years: anni
   present: oggi
-  to: a
 rendercv_settings:
   render_command:
     output_folder_name: rendercv_output_it
