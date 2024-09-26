@@ -1,24 +1,22 @@
-name: Release a CV
+name: Release CVs
 
 on:
   push:
     tags:
-      - "*" # Any tag pushed to the repository
+      - "*" # Any tag
       
 permissions:
   contents: write
   
 jobs:
   call_rendercv_workflow:
-    name: RenderCV
+    name: Render CVs
     uses: ./.github/workflows/rendercv.yaml
 
   build:
     needs: call_rendercv_workflow
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Download RenderCV Output
         uses: actions/download-artifact@v4
         with:
@@ -28,7 +26,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            rendercv_output/*_CV.pdf
-            rendercv_output/*_CV.tex
+            rendercv_output/*_CV_*.pdf
+            rendercv_output/*_CV_*.tex
           generate_release_notes: true
           make_latest: true

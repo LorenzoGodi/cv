@@ -1,0 +1,151 @@
+cv:
+    name: Lorenzo Godi
+    location: Padova (PD)
+    email: lorenzo.godi.work@protonmail.com
+    #website: https://lorenzogodi.com/
+    social_networks:
+    - network: LinkedIn
+      username: lorenzogodi
+    - network: GitHub
+      username: LorenzoGodi
+    sections:
+        presentazione:
+        - "Sono un informatico e uno studente di astronomia. Da tutta la vita ho uno spirito curioso e desideroso di conoscenza:
+          avevo appena sei anni quando rimasi affascinato davanti allo schermo da un documentario sui buchi neri.
+          Mi piace e cerco sempre di approfondire la mia comprensione del mondo.
+          L'informatica è sempre stata il mio forte, fin dalla scuola superiore.
+          Mi piace progettare software e programmare. In me troverete una persona altamente motivata,
+          disposta a imparare e ad affrontare le sfide, capace di lavorare in modo indipendente.
+          Mi piace anche lavorare in team, collaborando e scambiando idee.
+          Mi piacerebbe trovare un progetto stimolante a cui dare tutto me stesso, dove veder crescere le mie abilità e la mia passione."
+        formazione:
+          - institution: Università di Padova
+            area: Astronomia (in frequentazione)
+            degree: Laurea
+            start_date: 2021
+            end_date: present
+          - institution: Università di Trento
+            area: Informatica
+            degree: Laurea
+            start_date: 2018
+            end_date: 2021
+            highlights:
+              - '**Voto finale:** 110 con Lode / 110'
+              - '**Tirocinio ed elaborato finale:** “Analisi dati in ambito climatico su cluster HPC con framework di parallel data analytics Dask”'
+          - institution: Istituto Tecnico Tecnologico “Eugenio Barsanti”
+            area: Diploma di Tecnico Industriale Informatico
+            start_date: 2013
+            end_date: 2018
+            highlights:
+              - '**Voto finale:** 100 / 100'
+              - 'Indirizzo: “Informatica e Telecomunicazioni” art. “Informatica”'
+        esperienza professionale:
+          - company: Accenture Italia
+            position: Apprendistato - Addetto sistemi informatici e telematici
+            location: Venezia (VE)
+            start_date: 2023-11
+            end_date: present
+            highlights:
+              - Sistemista Windows presso ente della Pubblica Amministrazione.
+              - Scripting in PowerShell e Python.
+              - Deploy di applicativi su Windows Server.
+              - Gestione servizi Windows Server come Active Directory, DFS, WSUS, e DNS.
+              - Configurazione sistemi di monitoraggio come Dynatrace, Zabbix.
+          - company: Università of Trento
+            position: Tecnico per supporto alla didattica online
+            location: Trento (TN)
+            start_date: 2020-05
+            end_date: 2021-05
+            highlights:
+              - Provided support to academic departments for conducting virtual graduation sessions.
+              - Managed and organised Zoom meetings, offering technical assistance.
+        volontariato:
+          - name: IT Tutor for adults
+            location: Technical School ITT “Eugenio Barsanti”
+            highlights:
+              - Supporto ai dipartimenti accademici per la conduzione di sessioni di laurea virtuali.
+              - Gestione e organizzazione di riunioni su Zoom, offrendo assistenza tecnica.
+        conoscenze:
+          - label: Linguaggi
+            details: Python (Numpy, Xarray, Matplotlib), SQL, PowerShell, C#, JAVA, SML, F#
+          - label: Strumenti
+            details: Jupyter Lab, Git, LateX
+          - label: Familiare con
+            details: .NET, Docker, C++, JavaScript, Typescript, Bash
+design:
+    theme: sb2nov
+    font: Charter
+    font_size: 10pt
+    page_size: a4paper
+    color: '#004f90'
+    disable_external_link_icons: false
+    disable_page_numbering: true
+    page_numbering_style: NAME - Pagina PAGE_NUMBER di TOTAL_PAGES
+    disable_last_updated_date: false
+    last_updated_date_style: 'Modificato: TODAY'
+    header_font_size: 30 pt
+    text_alignment: justified
+    seperator_between_connections: ''
+    use_icons_for_connections: true
+    margins:
+        page:
+            top: 1 cm
+            bottom: 1 cm
+            left: 1 cm
+            right: 1 cm
+        section_title:
+            top: 0.4 cm
+            bottom: 0.4 cm
+        entry_area:
+            left_and_right: 0.2 cm
+            vertical_between: 0.4 cm
+            date_and_location_width: 6.5 cm
+        highlights_area:
+            top: 0.10 cm
+            left: 0.4 cm
+            vertical_between_bullet_points: 0.10 cm
+        header:
+            vertical_between_name_and_connections: 0.3 cm
+            bottom: 0.3 cm
+            horizontal_between_connections: 0.5 cm
+locale_catalog:
+  abbreviations_for_months: # translation of the month abbreviations
+    - gen
+    - feb
+    - mar
+    - apr
+    - mag
+    - giu
+    - lug
+    - ago
+    - set
+    - ott
+    - nov
+    - dic
+  full_names_of_months: # translation of the full month names
+    - genennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
+  month: mese
+  months: mesi
+  year: anno
+  years: anni
+  present: oggi
+  to: a
+rendercv_settings:
+  render_command:
+    output_folder_name: rendercv_output_it
+    pdf_path: LorenzoGodi_CV_it.pdf 
+    latex_path: LorenzoGodi_CV_it.tex
+    dont_generate_html: true 
+    dont_generate_markdown: true 
+    dont_generate_png: true
