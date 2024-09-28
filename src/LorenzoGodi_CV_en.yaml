@@ -69,7 +69,7 @@ cv:
           - label: Tools
             details: Jupyter Lab, Git, LateX
           - label: Familiar with
-            details: .NET, Docker, C++, JavaScript, Typescript, Bash
+            details: ML, NNs, .NET, Docker, MongoDB, Bash, C++, JavaScript, Typescript
 design:
     theme: sb2nov
     font: Charter
