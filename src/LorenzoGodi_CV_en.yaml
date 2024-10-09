@@ -48,7 +48,7 @@ cv:
               - PowerShell and Python scripting.
               - Deployment of applications on Windows Server.
               - Managed Windows Server services, including Active Directory, DFS, WSUS, and DNS.
-              - Configuring monitoring services such as Dynatrace, Zabbix
+              - Configuring monitoring services such as Dynatrace, Zabbix.
           - company: University of Trento
             position: Online Technical Support Operator
             location: Trento, Italy
