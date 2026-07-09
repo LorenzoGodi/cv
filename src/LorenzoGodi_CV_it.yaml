@@ -72,25 +72,23 @@ cv:
               - Tenuta di corsi di informatica di base per adulti per l'uso di computer, smartphone e internet.
               - Creazione di guide, preparazione delle lezioni.
         conoscenze:
-          - label: Linguaggi
-            details: C#, Java, Python, SML
-          - label: Data Science
-            details: Jupyter Notebook, Xarray, NumPy, Matplotlib, LaTeX
-          - label: Dev Tools & DevOps
-            details: Visual Studio, VS Code, Git
-          - label: DB & Scripting
-            details: SQL, PowerShell
           - label: SysAdmin
-            details: Microsoft 365 Admin
-          - label: SO
-            details: Windows, macOS, iOS, Android
+            details: Windows Server, Microsoft 365
+          - label: Monitoraggio
+            details: Zabbix, Dynatrace, iVertix
+          - label: Scripting & DB
+            details: PowerShell, Python, Bash, SQL
+          - label: DevOps
+            details: Git, GitHub Actions, CI, Docker
+          - label: Linguaggi
+            details: C#, Java, Python
+          - label: Data Science
+            details: Dask, Xarray, NumPy, Pandas, Matplotlib
         familiarità:
           - bullet: C, C++, F#, JS, TypeScript
-          - bullet: Pandas, Dask, MPI
-          - bullet: GitHub Actions, CI, Docker
-          - bullet: NoSQL (Mongo), Bash
-          - bullet: Windows Server
-          - bullet: Linux (Debian like)
+          - bullet: SML, MPI, Jupyter, LaTeX
+          - bullet: NoSQL (Mongo)
+          - bullet: macOS, Linux (Debian like)
 design:
     theme: sb2nov
     font: Charter

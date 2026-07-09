@@ -73,25 +73,23 @@ cv:
               - Conducted basic IT courses for adults on using computers, smartphones, and the internet.
               - Developed instructional guides and prepared lesson materials.
         skills:
-          - label: Languages
-            details: C#, Java, Python, SML
-          - label: Data Science
-            details: Jupyter Notebook, Xarray, NumPy, Matplotlib, LaTeX
-          - label: Dev Tools & DevOps
-            details: Visual Studio, VS Code, Git
-          - label: DB & Scripting
-            details: SQL, PowerShell
           - label: SysAdmin
-            details: Microsoft 365 Admin
-          - label: OS
-            details: Windows, macOS, iOS, Android
+            details: Windows Server, Microsoft 365
+          - label: Monitoring
+            details: Zabbix, Dynatrace, iVertix
+          - label: Scripting & DB
+            details: PowerShell, Python, Bash, SQL
+          - label: DevOps
+            details: Git, GitHub Actions, CI, Docker
+          - label: Languages
+            details: C#, Java, Python
+          - label: Data Science
+            details: Dask, Xarray, NumPy, Pandas, Matplotlib
         familiar with:
           - bullet: C, C++, F#, JS, TypeScript
-          - bullet: Pandas, Dask, MPI
-          - bullet: GitHub Actions, CI, Docker
-          - bullet: NoSQL (Mongo), Bash
-          - bullet: Windows Server
-          - bullet: Linux (Debian-like)
+          - bullet: SML, MPI, Jupyter, LaTeX
+          - bullet: NoSQL (Mongo)
+          - bullet: macOS, Linux (Debian-like)
 design:
     theme: sb2nov
     font: Charter
