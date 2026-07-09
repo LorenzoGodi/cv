@@ -1,7 +1,7 @@
 cv:
     name: Lorenzo Godi
     location: Padova, Italy
-    phone: ***REMOVED***
+    # phone: set via the CV_PHONE environment variable (repository secret in CI)
     email: contact@lorenzogodi.com
     #website: https://lorenzogodi.com/
     social_networks:

@@ -15,6 +15,7 @@ falling back to the input file's stem in the current directory.
 """
 
 import argparse
+import os
 import pathlib
 import re
 import shutil
@@ -578,6 +579,12 @@ def main():
 
     input_path = pathlib.Path(arguments.input_file)
     input_data = yaml.safe_load(input_path.read_text(encoding="utf-8"))
+
+    # The phone number is kept out of the repository: it is injected through
+    # the CV_PHONE environment variable (a repository secret in CI). Without
+    # it, the CV is rendered without the phone connection in the header.
+    if os.environ.get("CV_PHONE"):
+        input_data["cv"]["phone"] = os.environ["CV_PHONE"]
 
     # Output paths: CLI arguments win over render_settings in the YAML file:
     settings = input_data.get("render_settings") or {}

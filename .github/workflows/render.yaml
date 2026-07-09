@@ -37,6 +37,8 @@ jobs:
             pdftexcmds psnfss refcount rerunfilecheck titlesec tools
             uniquecounter url xcolor
       - name: Render CVs
+        env:
+          CV_PHONE: ${{ secrets.CV_PHONE }}
         run: |
           shopt -s nullglob
           cv_files=(src/*_CV_*.yaml)

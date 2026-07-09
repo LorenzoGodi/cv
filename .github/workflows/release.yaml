@@ -12,6 +12,7 @@ jobs:
   call_render_workflow:
     name: Render CVs
     uses: ./.github/workflows/render.yaml
+    secrets: inherit
 
   build:
     needs: call_render_workflow
