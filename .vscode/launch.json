@@ -5,18 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run RenderCV",
+      "name": "Render CV (it)",
       "type": "debugpy",
       "request": "launch",
       "module": "rendercv",
-      "args": [
-        "render",
-        "src/John_Doe_CV.yaml",
-        "--pdf-path",
-        "John_Doe_CV.pdf",
-        "--markdown-path",
-        "README.md"
-      ]
+      "args": ["render", "src/LorenzoGodi_CV_it.yaml"]
+    },
+    {
+      "name": "Render CV (en)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rendercv",
+      "args": ["render", "src/LorenzoGodi_CV_en.yaml"]
     }
   ]
 }
