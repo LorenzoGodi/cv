@@ -79,7 +79,7 @@ cv:
           - label: DevOps
             details: Git, GitHub Actions, CI
           - label: Linguaggi
-            details: C#, Java, Python, C, C++, F#, JS, TypeScript
+            details: C#, Java, Python
           - label: Data Science
             details: Xarray, NumPy, Pandas, Matplotlib
           - label: Strumenti
@@ -87,6 +87,7 @@ cv:
           - label: SO
             details: Windows, macOS, Android, iOS
         familiarità:
+          - bullet: C, C++, F#, JS, TypeScript
           - bullet: Zabbix, Dynatrace, iVertix
           - bullet: Docker
           - bullet: SML, MPI, Dask
