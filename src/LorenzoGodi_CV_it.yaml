@@ -87,12 +87,12 @@ cv:
           - label: SO
             details: Windows, macOS, Android, iOS
         familiarità:
-          - bullet: C, C++, F#, JS, TypeScript
-          - bullet: Zabbix, Dynatrace, iVertix
-          - bullet: Docker
-          - bullet: SML, MPI, Dask
-          - bullet: NoSQL (Mongo)
           - bullet: Windows Server
+          - bullet: NoSQL (Mongo)
+          - bullet: Docker
+          - bullet: C, C++, F#, JS, TypeScript, SML
+          - bullet: Dask, MPI
+          - bullet: Zabbix, Dynatrace, iVertix
           - bullet: Linux (Debian like)
 design:
     theme: sb2nov
