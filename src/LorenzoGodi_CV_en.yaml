@@ -38,6 +38,9 @@ cv:
             location: Veneto, Italy
             start_date: 2025-01
             end_date: present
+            highlights:
+              - 'IT management for three professional firms: Microsoft 365 tenants, security (MFA, password manager), backups and vendors.'
+              - 'PC fleet and office network management: assembly, configuration, migrations; on-site and remote support.'
           - company: Secondary School IIS “Barsanti Galilei”
             position: Computer Science Teacher (A41)
             location: Castelfranco Veneto, Italy
