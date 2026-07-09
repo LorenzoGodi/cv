@@ -1,0 +1,11 @@
+((* if section_title|lower in ["conoscenze", "skills"] *))
+\item[<<entry.label>>:] <<entry.details>>
+((* else *))
+((* if not is_first_entry *))
+\vspace{<<design.margins.entry_area.vertical_between>>}
+((* endif *))
+
+\begin{onecolentry}
+    \textbf{<<entry.label>>:} <<entry.details>>
+\end{onecolentry}
+((* endif *))

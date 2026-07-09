@@ -2,7 +2,7 @@ cv:
     name: Lorenzo Godi
     location: Padova, Italy
     phone: ***REMOVED***
-    email: lorenzo.godi.work@protonmail.com
+    email: contact@lorenzogodi.com
     #website: https://lorenzogodi.com/
     social_networks:
     - network: LinkedIn
@@ -10,12 +10,6 @@ cv:
     - network: GitHub
       username: LorenzoGodi
     sections:
-        about me:
-        - I am a computer scientist and an astronomy student. My pursuit in life has always been knowledge. I was just six years old when I was captivated in front of the screen by a documentary about black holes. I appreciate and need to
-            constantly deepen my understanding of the world. Computer sciences have always been my strong suit since high school.
-            I enjoy designing software and programming. You will find in me an highly motivated person, willing to learn and face
-            challenges and capable of working independently. I also enjoy collaborating in a team environment and exchanging
-            ideas. I would love to dedicate myself to a stimulating project, growing my abilities and passion.
         education:
           - institution: University of Padova
             area: Astronomy (attending)
@@ -39,18 +33,32 @@ cv:
             highlights:
               - '**Final grade:** 100 / 100'
         experience:
-          - company: Accenture Italia
+          - company: Freelance
+            position: IT Administrator
+            location: Veneto, Italy
+            start_date: 2025-01
+            end_date: present
+          - company: Secondary School IIS “Barsanti Galilei”
+            position: Computer Science Teacher (A41)
+            location: Castelfranco Veneto, Italy
+            start_date: 2026-01
+            end_date: 2026-06
+          - company: Secondary School IIS “Leon Battista Alberti”
+            position: Computer Science Laboratory Teacher (B16)
+            location: Abano Terme, Italy
+            start_date: 2025-01
+            end_date: 2025-06
+          - company: Randstad - Accenture Italia
             position: Apprenticeship - IT and Telematics Systems Officer
             location: Venezia, Italy
             start_date: 2023-11
-            end_date: present
+            end_date: 2024-12
             highlights:
               - Windows System Administrator at Public Administration Offices.
-              - PowerShell and Python scripting.
-              - Deployment of applications on Windows Server.
-              - Managed Windows Server services, including Active Directory, DFS, WSUS, and DNS.
-              - Configuring monitoring services such as Dynatrace, Zabbix.
-          - company: University of Trento
+              - Web application deployment, Windows Server services management, and monitoring (iVertix, Dynatrace, Zabbix).
+              - Scripting (PowerShell, Python).
+              - 24/7 remote on-call duty for emergency response.
+          - company: University of Trento - 150-hour student collaboration
             position: Online Technical Support Operator
             location: Trento, Italy
             start_date: 2020-05
@@ -64,13 +72,26 @@ cv:
             highlights:
               - Conducted basic IT courses for adults on using computers, smartphones, and the internet.
               - Developed instructional guides and prepared lesson materials.
-        technologies:
+        skills:
           - label: Languages
-            details: Python (Numpy, Xarray, Matplotlib), SQL, PowerShell, C#, JAVA, SML, F#
-          - label: Tools
-            details: Jupyter Lab, Git, LateX
-          - label: Familiar with
-            details: ML, NNs, .NET, Docker, MongoDB, Bash, C++, JavaScript, Typescript
+            details: C#, Java, Python, SML
+          - label: Data Science
+            details: Jupyter Notebook, Xarray, NumPy, Matplotlib, LaTeX
+          - label: Dev Tools & DevOps
+            details: Visual Studio, VS Code, Git
+          - label: DB & Scripting
+            details: SQL, PowerShell
+          - label: SysAdmin
+            details: Microsoft 365 Admin
+          - label: OS
+            details: Windows, macOS, iOS, Android
+        familiar with:
+          - bullet: C, C++, F#, JS, TypeScript
+          - bullet: Pandas, Dask, MPI
+          - bullet: GitHub Actions, CI, Docker
+          - bullet: NoSQL (Mongo), Bash
+          - bullet: Windows Server
+          - bullet: Linux (Debian-like)
 design:
     theme: sb2nov
     font: Charter
@@ -88,20 +109,20 @@ design:
     use_icons_for_connections: true
     margins:
         page:
-            top: 1 cm
-            bottom: 1 cm
-            left: 1 cm
-            right: 1 cm
+            top: 0.8 cm
+            bottom: 0.4 cm
+            left: 0.6 cm
+            right: 0.6 cm
         section_title:
             top: 0.4 cm
-            bottom: 0.4 cm
+            bottom: 0.2 cm
         entry_area:
             left_and_right: 0.2 cm
-            vertical_between: 0.4 cm
-            date_and_location_width: 6.5 cm
+            vertical_between: 0.5 cm
+            date_and_location_width: 7.5 cm
         highlights_area:
             top: 0.10 cm
-            left: 0.4 cm
+            left: 0.2 cm
             vertical_between_bullet_points: 0.10 cm
         header:
             vertical_between_name_and_connections: 0.3 cm
@@ -110,8 +131,8 @@ design:
 rendercv_settings:
   render_command:
     output_folder_name: rendercv_output_en
-    pdf_path: LorenzoGodi_CV_en.pdf 
+    pdf_path: LorenzoGodi_CV_en.pdf
     latex_path: LorenzoGodi_CV_en.tex
-    dont_generate_html: true 
-    dont_generate_markdown: true 
+    dont_generate_html: true
+    dont_generate_markdown: true
     dont_generate_png: true

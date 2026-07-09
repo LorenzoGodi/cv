@@ -2,7 +2,7 @@ cv:
     name: Lorenzo Godi
     location: Padova (PD)
     phone: ***REMOVED***
-    email: lorenzo.godi.work@protonmail.com
+    email: contact@lorenzogodi.com
     #website: https://lorenzogodi.com/
     social_networks:
     - network: LinkedIn
@@ -10,15 +10,6 @@ cv:
     - network: GitHub
       username: LorenzoGodi
     sections:
-        presentazione:
-        - "Sono un informatico e uno studente di astronomia. Da tutta la vita ho uno spirito curioso e desideroso di conoscenza:
-          avevo appena sei anni quando rimasi affascinato davanti allo schermo da un documentario sui buchi neri.
-          Mi piace e cerco sempre di approfondire la mia comprensione del mondo.
-          L'informatica è sempre stata il mio forte, fin dalla scuola superiore.
-          Mi piace progettare software e programmare. In me troverete una persona altamente motivata,
-          disposta a imparare e ad affrontare le sfide, capace di lavorare in modo indipendente.
-          Mi piace anche lavorare in team, collaborando e scambiando idee.
-          Mi piacerebbe trovare un progetto stimolante a cui dare tutto me stesso, dove veder crescere le mie abilità e la mia passione."
         formazione:
           - institution: Università di Padova
             area: Astronomia (in frequentazione)
@@ -41,38 +32,65 @@ cv:
               - '**Voto finale:** 100 / 100'
               - 'Indirizzo: “Informatica e Telecomunicazioni” art. “Informatica”'
         esperienza professionale:
-          - company: Accenture Italia
+          - company: Freelance
+            position: Amministratore IT
+            location: Veneto
+            start_date: 2025-01
+            end_date: present
+          - company: Istituto di Istruzione Superiore “Barsanti Galilei”
+            position: Insegnante di Informatica (A41)
+            location: Castelfranco Veneto (TV)
+            start_date: 2026-01
+            end_date: 2026-06
+          - company: Istituto di Istruzione Superiore “Leon Battista Alberti”
+            position: Insegnante di Laboratori di Scienze e Tecnologie Informatiche (B16)
+            location: Abano Terme (PD)
+            start_date: 2025-01
+            end_date: 2025-06
+          - company: Randstad - Accenture Italia
             position: Apprendistato - Addetto sistemi informatici e telematici
             location: Venezia (VE)
             start_date: 2023-11
-            end_date: present
+            end_date: 2024-12
             highlights:
               - Sistemista Windows presso ente della Pubblica Amministrazione.
-              - Scripting in PowerShell e Python.
-              - Deploy di applicativi su Windows Server.
-              - Gestione servizi Windows Server come Active Directory, DFS, WSUS, e DNS.
-              - Configurazione sistemi di monitoraggio come Dynatrace, Zabbix.
-          - company: Università of Trento
+              - Deploy applicativi web, gestione servizi Windows Server e monitoraggio (iVertix, Dynatrace, Zabbix).
+              - Scripting (PowerShell, Python).
+              - Reperibilità h24 da remoto per pronto intervento.
+          - company: Università di Trento - 150 ore
             position: Tecnico per supporto alla didattica online
             location: Trento (TN)
             start_date: 2020-05
             end_date: 2021-05
             highlights:
               - Supporto ai dipartimenti accademici per la conduzione di sessioni di laurea virtuali.
-              - Gestione e organizzazione di riunioni su Zoom, oﬀrendo assistenza tecnica.
+              - Gestione e organizzazione di riunioni su Zoom, offrendo assistenza tecnica.
         volontariato:
           - name: Tutor di informatica per adulti
             location: Istituto Tecnico Tecnologico “Eugenio Barsanti”
             highlights:
-              - Supporto ai dipartimenti accademici per la conduzione di sessioni di laurea virtuali.
-              - Gestione e organizzazione di riunioni su Zoom, offrendo assistenza tecnica.
+              - Tenuta di corsi di informatica di base per adulti per l'uso di computer, smartphone e internet.
+              - Creazione di guide, preparazione delle lezioni.
         conoscenze:
           - label: Linguaggi
-            details: Python (Numpy, Xarray, Matplotlib), SQL, PowerShell, C#, JAVA, SML, F#
-          - label: Strumenti
-            details: Jupyter Lab, Git, LateX
-          - label: Familiare con
-            details: ML, NNs, .NET, Docker, MongoDB, Bash, C++, JavaScript, Typescript
+            details: C#, Java, Python, SML
+          - label: Data Science
+            details: Jupyter Notebook, Xarray, NumPy, Matplotlib, LaTeX
+          - label: Dev Tools & DevOps
+            details: Visual Studio, VS Code, Git
+          - label: DB & Scripting
+            details: SQL, PowerShell
+          - label: SysAdmin
+            details: Microsoft 365 Admin
+          - label: SO
+            details: Windows, macOS, iOS, Android
+        familiarità:
+          - bullet: C, C++, F#, JS, TypeScript
+          - bullet: Pandas, Dask, MPI
+          - bullet: GitHub Actions, CI, Docker
+          - bullet: NoSQL (Mongo), Bash
+          - bullet: Windows Server
+          - bullet: Linux (Debian like)
 design:
     theme: sb2nov
     font: Charter
@@ -90,20 +108,20 @@ design:
     use_icons_for_connections: true
     margins:
         page:
-            top: 1 cm
-            bottom: 1 cm
-            left: 1 cm
-            right: 1 cm
+            top: 0.8 cm
+            bottom: 0.4 cm
+            left: 0.6 cm
+            right: 0.6 cm
         section_title:
             top: 0.4 cm
-            bottom: 0.4 cm
+            bottom: 0.2 cm
         entry_area:
             left_and_right: 0.2 cm
-            vertical_between: 0.4 cm
-            date_and_location_width: 6.5 cm
+            vertical_between: 0.5 cm
+            date_and_location_width: 7.5 cm
         highlights_area:
             top: 0.10 cm
-            left: 0.4 cm
+            left: 0.2 cm
             vertical_between_bullet_points: 0.10 cm
         header:
             vertical_between_name_and_connections: 0.3 cm
@@ -124,7 +142,7 @@ locale_catalog:
     - nov
     - dic
   full_names_of_months: # translation of the full month names
-    - genennaio
+    - gennaio
     - febbraio
     - marzo
     - aprile
@@ -144,8 +162,8 @@ locale_catalog:
 rendercv_settings:
   render_command:
     output_folder_name: rendercv_output_it
-    pdf_path: LorenzoGodi_CV_it.pdf 
+    pdf_path: LorenzoGodi_CV_it.pdf
     latex_path: LorenzoGodi_CV_it.tex
-    dont_generate_html: true 
-    dont_generate_markdown: true 
+    dont_generate_html: true
+    dont_generate_markdown: true
     dont_generate_png: true

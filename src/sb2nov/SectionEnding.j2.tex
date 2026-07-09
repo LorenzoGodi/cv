@@ -1,0 +1,14 @@
+((* if section_title|lower in ["conoscenze", "skills"] *))
+    \end{B}
+\end{onecolentry}
+((* elif section_title|lower in ["familiarità", "familiar with"] *))
+    \end{B}
+\end{onecolentry}
+\end{paracol}
+\setlength{\columnsep}{0cm}
+((* else *))
+((* if entry_type == "BulletEntry" *))
+    \end{highlightsforbulletentries}
+\end{onecolentry}
+((* endif *))
+((* endif *))

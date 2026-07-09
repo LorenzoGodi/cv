@@ -1,0 +1,22 @@
+((* if section_title|lower in ["conoscenze", "skills"] *))
+\setlength{\columnsep}{0.03\textwidth}
+\setcolumnwidth{0.66\textwidth, \fill}
+\begin{paracol}{2}
+\section{<<section_title>>}
+
+\begin{onecolentry}
+    \begin{B}[widest=Dev Tools \& DevOps:]
+((* elif section_title|lower in ["familiarità", "familiar with"] *))
+\switchcolumn
+\section{<<section_title>>}
+
+\begin{onecolentry}
+    \begin{B}[widest=]
+((* else *))
+\section{<<section_title>>}
+
+((* if entry_type == "BulletEntry" *))
+\begin{onecolentry}
+    \begin{highlightsforbulletentries}
+((* endif *))
+((* endif *))
