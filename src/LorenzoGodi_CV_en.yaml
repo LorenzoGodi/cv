@@ -85,13 +85,15 @@ cv:
             details: Dask, Xarray, NumPy, Pandas, Matplotlib
           - label: Tools
             details: Jupyter Lab, LaTeX
+          - label: OS
+            details: Windows, macOS, Android, iOS
         familiar with:
           - bullet: C, C++, F#, JS, TypeScript
           - bullet: Zabbix, Dynatrace, iVertix
           - bullet: Docker
           - bullet: SML, MPI
           - bullet: NoSQL (Mongo)
-          - bullet: macOS, Linux (Debian-like)
+          - bullet: Linux (Debian-like)
 design:
     theme: sb2nov
     font: Charter
