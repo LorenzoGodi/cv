@@ -75,8 +75,6 @@ cv:
         skills:
           - label: SysAdmin
             details: Windows Server, Microsoft 365
-          - label: Monitoring
-            details: Zabbix, Dynatrace, iVertix
           - label: Scripting & DB
             details: PowerShell, Python, Bash, SQL
           - label: DevOps
@@ -85,9 +83,12 @@ cv:
             details: C#, Java, Python
           - label: Data Science
             details: Dask, Xarray, NumPy, Pandas, Matplotlib
+          - label: Tools
+            details: Jupyter Lab, LaTeX
         familiar with:
           - bullet: C, C++, F#, JS, TypeScript
-          - bullet: SML, MPI, Jupyter, LaTeX
+          - bullet: Zabbix, Dynatrace, iVertix
+          - bullet: SML, MPI
           - bullet: NoSQL (Mongo)
           - bullet: macOS, Linux (Debian-like)
 design:
