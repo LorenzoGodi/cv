@@ -317,7 +317,7 @@ class CV:
 
 
 def format_phone_number(phone):
-    """Format "***REMOVED***" nationally as "***REMOVED***".
+    """Format "+39-012-345-6789" nationally as "012 345 6789".
 
     The phone number must be written as +COUNTRYCODE-XXX-XXX-XXXX in the YAML.
     """
