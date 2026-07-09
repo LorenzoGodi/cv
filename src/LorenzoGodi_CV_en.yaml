@@ -74,13 +74,13 @@ cv:
               - Developed instructional guides and prepared lesson materials.
         skills:
           - label: SysAdmin
-            details: Windows Server, Microsoft 365 Admin
+            details: Microsoft 365 Admin
           - label: Scripting & DB
             details: PowerShell, Python, Bash, SQL
           - label: DevOps
             details: Git, GitHub Actions, CI
           - label: Languages
-            details: C#, Java, Python
+            details: C#, Java, Python, C, C++, F#, JS, TypeScript
           - label: Data Science
             details: Xarray, NumPy, Pandas, Matplotlib
           - label: Tools
@@ -88,11 +88,11 @@ cv:
           - label: OS
             details: Windows, macOS, Android, iOS
         familiar with:
-          - bullet: C, C++, F#, JS, TypeScript
           - bullet: Zabbix, Dynatrace, iVertix
           - bullet: Docker
           - bullet: SML, MPI, Dask
           - bullet: NoSQL (Mongo)
+          - bullet: Windows Server
           - bullet: Linux (Debian-like)
 design:
     theme: sb2nov
