@@ -78,7 +78,7 @@ cv:
           - label: Scripting & DB
             details: PowerShell, Python, Bash, SQL
           - label: DevOps
-            details: Git, GitHub Actions, CI, Docker
+            details: Git, GitHub Actions, CI
           - label: Languages
             details: C#, Java, Python
           - label: Data Science
@@ -88,6 +88,7 @@ cv:
         familiar with:
           - bullet: C, C++, F#, JS, TypeScript
           - bullet: Zabbix, Dynatrace, iVertix
+          - bullet: Docker
           - bullet: SML, MPI
           - bullet: NoSQL (Mongo)
           - bullet: macOS, Linux (Debian-like)
