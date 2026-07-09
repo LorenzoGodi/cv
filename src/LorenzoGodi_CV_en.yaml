@@ -128,11 +128,6 @@ design:
             vertical_between_name_and_connections: 0.3 cm
             bottom: 0.3 cm
             horizontal_between_connections: 0.5 cm
-rendercv_settings:
-  render_command:
-    output_folder_name: rendercv_output_en
-    pdf_path: LorenzoGodi_CV_en.pdf
-    latex_path: LorenzoGodi_CV_en.tex
-    dont_generate_html: true
-    dont_generate_markdown: true
-    dont_generate_png: true
+render_settings:
+  pdf_path: LorenzoGodi_CV_en.pdf
+  latex_path: LorenzoGodi_CV_en.tex

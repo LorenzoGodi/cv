@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 jobs:
-  rendercv:
+  render:
     name: Render CVs
     runs-on: ubuntu-latest
     steps:
@@ -20,24 +20,49 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - name: Install RenderCV
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
+      - name: Install TeX Live
+        uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: |
+            scheme-basic
+            amsmath
+            bookmark
+            changepage
+            charter
+            enumitem
+            eso-pic
+            etoolbox
+            fontawesome5
+            geometry
+            hyperref
+            hyphenat
+            iftex
+            lastpage
+            lm
+            needspace
+            paracol
+            psnfss
+            titlesec
+            tools
+            xcolor
       - name: Render CVs
         run: |
           shopt -s nullglob
           cv_files=(src/*_CV_*.yaml)
           if [ ${#cv_files[@]} -eq 0 ]; then
-            echo "No RenderCV files found!"
+            echo "No CV files found!"
             exit 1
           fi
           for cv_file in "${cv_files[@]}"; do
             base=$(basename "$cv_file" .yaml)
-            rendercv render "$cv_file" --pdf-path "$base.pdf" --latex-path "$base.tex"
+            python render.py "$cv_file" --latex-path "$base.tex" --pdf-path "$base.pdf"
           done
       - name: Upload as an artifact
         uses: actions/upload-artifact@v4
         with:
-          name: RenderCV Output
+          name: CV Output
           path: |
             ./*_CV_*.pdf
             ./*_CV_*.tex

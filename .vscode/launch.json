@@ -8,15 +8,15 @@
       "name": "Render CV (it)",
       "type": "debugpy",
       "request": "launch",
-      "module": "rendercv",
-      "args": ["render", "src/LorenzoGodi_CV_it.yaml"]
+      "program": "render.py",
+      "args": ["src/LorenzoGodi_CV_it.yaml", "--no-pdf"]
     },
     {
       "name": "Render CV (en)",
       "type": "debugpy",
       "request": "launch",
-      "module": "rendercv",
-      "args": ["render", "src/LorenzoGodi_CV_en.yaml"]
+      "program": "render.py",
+      "args": ["src/LorenzoGodi_CV_en.yaml", "--no-pdf"]
     }
   ]
 }
