@@ -74,7 +74,7 @@ cv:
               - Developed instructional guides and prepared lesson materials.
         skills:
           - label: SysAdmin
-            details: Windows Server, Microsoft 365
+            details: Windows Server, Microsoft 365 Admin
           - label: Scripting & DB
             details: PowerShell, Python, Bash, SQL
           - label: DevOps
@@ -82,7 +82,7 @@ cv:
           - label: Languages
             details: C#, Java, Python
           - label: Data Science
-            details: Dask, Xarray, NumPy, Pandas, Matplotlib
+            details: Xarray, NumPy, Pandas, Matplotlib
           - label: Tools
             details: Jupyter Lab, LaTeX
           - label: OS
@@ -91,7 +91,7 @@ cv:
           - bullet: C, C++, F#, JS, TypeScript
           - bullet: Zabbix, Dynatrace, iVertix
           - bullet: Docker
-          - bullet: SML, MPI
+          - bullet: SML, MPI, Dask
           - bullet: NoSQL (Mongo)
           - bullet: Linux (Debian-like)
 design:

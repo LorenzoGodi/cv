@@ -73,7 +73,7 @@ cv:
               - Creazione di guide, preparazione delle lezioni.
         conoscenze:
           - label: SysAdmin
-            details: Windows Server, Microsoft 365
+            details: Windows Server, Microsoft 365 Admin
           - label: Scripting & DB
             details: PowerShell, Python, Bash, SQL
           - label: DevOps
@@ -81,7 +81,7 @@ cv:
           - label: Linguaggi
             details: C#, Java, Python
           - label: Data Science
-            details: Dask, Xarray, NumPy, Pandas, Matplotlib
+            details: Xarray, NumPy, Pandas, Matplotlib
           - label: Strumenti
             details: Jupyter Lab, LaTeX
           - label: SO
@@ -90,7 +90,7 @@ cv:
           - bullet: C, C++, F#, JS, TypeScript
           - bullet: Zabbix, Dynatrace, iVertix
           - bullet: Docker
-          - bullet: SML, MPI
+          - bullet: SML, MPI, Dask
           - bullet: NoSQL (Mongo)
           - bullet: Linux (Debian like)
 design:
